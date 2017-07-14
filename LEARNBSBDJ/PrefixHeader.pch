@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  LEARNBSBDJ
+//
+//  Created by mac on 2017/7/14.
+//  Copyright © 2017年 United Network Services Ltd. of Shenzhen City. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define BS_ScreenF [UIScreen mainScreen].bounds
+
+#endif /* PrefixHeader_pch */
