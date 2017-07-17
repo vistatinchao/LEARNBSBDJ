@@ -7,12 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D9C7121F1C63480017CD03 /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */; };
+		04D9C7151F1C668D0017CD03 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7141F1C668D0017CD03 /* BSTabBarController.m */; };
+		04D9C7181F1C66A30017CD03 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7171F1C66A30017CD03 /* BSNavigationController.m */; };
+		04D9C71E1F1C98DB0017CD03 /* BSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C71D1F1C98DB0017CD03 /* BSMeViewController.m */; };
+		04D9C7211F1C99000017CD03 /* BSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7201F1C99000017CD03 /* BSNewViewController.m */; };
+		04D9C7241F1C991B0017CD03 /* BSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7231F1C991B0017CD03 /* BSEssenceViewController.m */; };
+		04D9C7281F1C99620017CD03 /* BSFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7261F1C99620017CD03 /* BSFocusViewController.m */; };
+		04D9C7291F1C99620017CD03 /* BSFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9C7271F1C99620017CD03 /* BSFocusViewController.xib */; };
+		04D9C72C1F1C9DDA0017CD03 /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C72B1F1C9DDA0017CD03 /* BSTabBar.m */; };
 		04D9CF0F1F18B7C900379B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9CF0E1F18B7C900379B28 /* main.m */; };
 		04D9CF1A1F18B7CA00379B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D9CF191F18B7CA00379B28 /* Assets.xcassets */; };
 		04D9CF421F18BB2D00379B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9CF271F18BB2D00379B28 /* AppDelegate.m */; };
+		81587926F9182C591E1DE919 /* libPods-LEARNBSBDJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B9BB15E4022561187F2728 /* libPods-LEARNBSBDJ.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D9C7101F1C63480017CD03 /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
+		04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
+		04D9C7131F1C668D0017CD03 /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBarController.h; sourceTree = "<group>"; };
+		04D9C7141F1C668D0017CD03 /* BSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBarController.m; sourceTree = "<group>"; };
+		04D9C7161F1C66A30017CD03 /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
+		04D9C7171F1C66A30017CD03 /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
+		04D9C71C1F1C98DB0017CD03 /* BSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeViewController.h; sourceTree = "<group>"; };
+		04D9C71D1F1C98DB0017CD03 /* BSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeViewController.m; sourceTree = "<group>"; };
+		04D9C71F1F1C99000017CD03 /* BSNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewViewController.h; sourceTree = "<group>"; };
+		04D9C7201F1C99000017CD03 /* BSNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNewViewController.m; sourceTree = "<group>"; };
+		04D9C7221F1C991B0017CD03 /* BSEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSEssenceViewController.h; sourceTree = "<group>"; };
+		04D9C7231F1C991B0017CD03 /* BSEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSEssenceViewController.m; sourceTree = "<group>"; };
+		04D9C7251F1C99620017CD03 /* BSFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFocusViewController.h; sourceTree = "<group>"; };
+		04D9C7261F1C99620017CD03 /* BSFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusViewController.m; sourceTree = "<group>"; };
+		04D9C7271F1C99620017CD03 /* BSFocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFocusViewController.xib; sourceTree = "<group>"; };
+		04D9C72A1F1C9DDA0017CD03 /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBar.h; sourceTree = "<group>"; };
+		04D9C72B1F1C9DDA0017CD03 /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBar.m; sourceTree = "<group>"; };
 		04D9CF0A1F18B7C900379B28 /* LEARNBSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEARNBSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9CF0E1F18B7C900379B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D9CF191F18B7CA00379B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -20,6 +47,9 @@
 		04D9CF261F18BB2D00379B28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04D9CF271F18BB2D00379B28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04D9CF431F18CBB900379B28 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		53B9BB15E4022561187F2728 /* libPods-LEARNBSBDJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEARNBSBDJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96796C35240C3FE877E957CC /* Pods-LEARNBSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEARNBSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEARNBSBDJ/Pods-LEARNBSBDJ.release.xcconfig"; sourceTree = "<group>"; };
+		B075156725108E7D19203FDA /* Pods-LEARNBSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEARNBSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEARNBSBDJ/Pods-LEARNBSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81587926F9182C591E1DE919 /* libPods-LEARNBSBDJ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +69,8 @@
 			children = (
 				04D9CF0C1F18B7C900379B28 /* LEARNBSBDJ */,
 				04D9CF0B1F18B7C900379B28 /* Products */,
+				4580A9E99A7E3C1A84B69885 /* Pods */,
+				781704497724E54E2B0277F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,8 +108,8 @@
 				04D9CF251F18BB2D00379B28 /* Other */,
 				04D9CF2E1F18BB2D00379B28 /* 关注 */,
 				04D9CF321F18BB2D00379B28 /* 我 */,
-				04D9CF361F18BB2D00379B28 /* 新帖 */,
-				04D9CF3A1F18BB2D00379B28 /* 最新 */,
+				04D9CF361F18BB2D00379B28 /* 发布 */,
+				04D9CF3A1F18BB2D00379B28 /* 新帖 */,
 				04D9CF3E1F18BB2D00379B28 /* 精华 */,
 			);
 			path = Classes;
@@ -97,6 +130,8 @@
 		04D9CF281F18BB2D00379B28 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C7101F1C63480017CD03 /* UIView+BSExtension.h */,
+				04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -121,6 +156,10 @@
 		04D9CF2B1F18BB2D00379B28 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C7131F1C668D0017CD03 /* BSTabBarController.h */,
+				04D9C7141F1C668D0017CD03 /* BSTabBarController.m */,
+				04D9C7161F1C66A30017CD03 /* BSNavigationController.h */,
+				04D9C7171F1C66A30017CD03 /* BSNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +174,8 @@
 		04D9CF2D1F18BB2D00379B28 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C72A1F1C9DDA0017CD03 /* BSTabBar.h */,
+				04D9C72B1F1C9DDA0017CD03 /* BSTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +193,9 @@
 		04D9CF2F1F18BB2D00379B28 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C7251F1C99620017CD03 /* BSFocusViewController.h */,
+				04D9C7261F1C99620017CD03 /* BSFocusViewController.m */,
+				04D9C7271F1C99620017CD03 /* BSFocusViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +227,8 @@
 		04D9CF331F18BB2D00379B28 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C71C1F1C98DB0017CD03 /* BSMeViewController.h */,
+				04D9C71D1F1C98DB0017CD03 /* BSMeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,13 +247,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04D9CF361F18BB2D00379B28 /* 新帖 */ = {
+		04D9CF361F18BB2D00379B28 /* 发布 */ = {
 			isa = PBXGroup;
 			children = (
 				04D9CF371F18BB2D00379B28 /* Controller */,
 				04D9CF381F18BB2D00379B28 /* Model */,
 				04D9CF391F18BB2D00379B28 /* View */,
 			);
+			name = "发布";
 			path = "新帖";
 			sourceTree = "<group>";
 		};
@@ -232,19 +279,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04D9CF3A1F18BB2D00379B28 /* 最新 */ = {
+		04D9CF3A1F18BB2D00379B28 /* 新帖 */ = {
 			isa = PBXGroup;
 			children = (
 				04D9CF3B1F18BB2D00379B28 /* Controller */,
 				04D9CF3C1F18BB2D00379B28 /* Model */,
 				04D9CF3D1F18BB2D00379B28 /* View */,
 			);
+			name = "新帖";
 			path = "最新";
 			sourceTree = "<group>";
 		};
 		04D9CF3B1F18BB2D00379B28 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C71F1F1C99000017CD03 /* BSNewViewController.h */,
+				04D9C7201F1C99000017CD03 /* BSNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +326,8 @@
 		04D9CF3F1F18BB2D00379B28 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D9C7221F1C991B0017CD03 /* BSEssenceViewController.h */,
+				04D9C7231F1C991B0017CD03 /* BSEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +346,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4580A9E99A7E3C1A84B69885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B075156725108E7D19203FDA /* Pods-LEARNBSBDJ.debug.xcconfig */,
+				96796C35240C3FE877E957CC /* Pods-LEARNBSBDJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		781704497724E54E2B0277F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B9BB15E4022561187F2728 /* libPods-LEARNBSBDJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D9CF211F18B7CA00379B28 /* Build configuration list for PBXNativeTarget "LEARNBSBDJ" */;
 			buildPhases = (
+				73CB8BF5F916295BE33B4453 /* [CP] Check Pods Manifest.lock */,
 				04D9CF061F18B7C800379B28 /* Sources */,
 				04D9CF071F18B7C800379B28 /* Frameworks */,
 				04D9CF081F18B7C800379B28 /* Resources */,
+				EAF37EBE064C9912DC59B433 /* [CP] Embed Pods Frameworks */,
+				9098278A93764E28C4B98ECA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,6 +392,7 @@
 		04D9CF021F18B7C800379B28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BS;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "United Network Services Ltd. of Shenzhen City";
 				TargetAttributes = {
@@ -353,19 +426,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9C7291F1C99620017CD03 /* BSFocusViewController.xib in Resources */,
 				04D9CF1A1F18B7CA00379B28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73CB8BF5F916295BE33B4453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9098278A93764E28C4B98ECA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEARNBSBDJ/Pods-LEARNBSBDJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF37EBE064C9912DC59B433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEARNBSBDJ/Pods-LEARNBSBDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D9CF061F18B7C800379B28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9C7151F1C668D0017CD03 /* BSTabBarController.m in Sources */,
 				04D9CF421F18BB2D00379B28 /* AppDelegate.m in Sources */,
+				04D9C7241F1C991B0017CD03 /* BSEssenceViewController.m in Sources */,
+				04D9C71E1F1C98DB0017CD03 /* BSMeViewController.m in Sources */,
 				04D9CF0F1F18B7C900379B28 /* main.m in Sources */,
+				04D9C7121F1C63480017CD03 /* UIView+BSExtension.m in Sources */,
+				04D9C7211F1C99000017CD03 /* BSNewViewController.m in Sources */,
+				04D9C7281F1C99620017CD03 /* BSFocusViewController.m in Sources */,
+				04D9C72C1F1C9DDA0017CD03 /* BSTabBar.m in Sources */,
+				04D9C7181F1C66A30017CD03 /* BSNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +594,7 @@
 		};
 		04D9CF221F18B7CA00379B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B075156725108E7D19203FDA /* Pods-LEARNBSBDJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -479,6 +610,7 @@
 		};
 		04D9CF231F18B7CA00379B28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96796C35240C3FE877E957CC /* Pods-LEARNBSBDJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -511,6 +643,7 @@
 				04D9CF231F18B7CA00379B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,34 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+/* 自定义log */
+#ifdef DEBUG
+#define BSLog(...) NSLog(__VA_ARGS__)
+#define BSLogFunc BSLog(@"%s", __func__)
+#else
+#define BSLog(...)
+#define BSLogFunc 
+#endif
+
+// 头文件
+#import <SVProgressHUD.h>
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <UIImageView+WebCache.h>
+#import "UIView+BSExtension.h"
+// 主请求路径
+#define BSMainURL @"http://api.budejie.com/api/api_open.php"
+
+// 间距
+#define BSCellMargin 10
+
+// 颜色
+#define BSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+// 全局色
+#define BSGlobalColor XMGColor(229, 229, 229)
 #define BS_ScreenF [UIScreen mainScreen].bounds
 
 #endif /* PrefixHeader_pch */

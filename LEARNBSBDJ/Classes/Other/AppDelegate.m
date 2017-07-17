@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BSTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -25,7 +25,7 @@
     self.window = [[UIWindow alloc]initWithFrame:BS_ScreenF];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[UITabBarController alloc]init];
+    self.window.rootViewController = [[BSTabBarController alloc]init];
 }
 
 
