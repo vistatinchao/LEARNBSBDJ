@@ -16,22 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setNavBar];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setNavBar{
+    self.view.backgroundColor = BSGlobalColor;
+    self.title = @"我的";
+    UIBarButtonItem *setModeItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(setModeItemClick) normalImage:@"mine-setting-icon" highLightenImage:@"mine-setting-icon-click"];
+    UIBarButtonItem *nightModeItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(nightModeItemClick) normalImage:@"mine-moon-icon" highLightenImage:@"mine-moon-icon-click"];
+    self.navigationItem.rightBarButtonItems = @[setModeItem,nightModeItem];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setModeItemClick{
+    BSLogFunc;
 }
-*/
+
+- (void)nightModeItemClick{
+    BSLogFunc;
+}
 
 @end

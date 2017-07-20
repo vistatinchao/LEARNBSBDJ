@@ -16,7 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self setNavBar];
 }
 
+#pragma mark - 设置导航栏
+- (void)setNavBar{
+
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(leftNavBarBtnClick) normalImage:@"MainTagSubIcon" highLightenImage:@"MainTagSubIconClick"];
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    self.view.backgroundColor = BSGlobalColor;
+}
+
+- (void)leftNavBarBtnClick{
+    BSLogFunc;
+}
 
 @end

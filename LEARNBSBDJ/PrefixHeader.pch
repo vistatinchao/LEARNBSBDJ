@@ -27,6 +27,7 @@
 #import <MJRefresh.h>
 #import <UIImageView+WebCache.h>
 #import "UIView+BSExtension.h"
+#import "UIBarButtonItem+BSExtension.h"
 // 主请求路径
 #define BSMainURL @"http://api.budejie.com/api/api_open.php"
 
@@ -36,7 +37,7 @@
 // 颜色
 #define BSColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 // 全局色
-#define BSGlobalColor XMGColor(229, 229, 229)
+#define BSGlobalColor BSColor(223, 223, 223)
 #define BS_ScreenF [UIScreen mainScreen].bounds
 
 #endif /* PrefixHeader_pch */

@@ -20,6 +20,8 @@
 
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
+
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
         // 添加+按钮
         [self setupAddBtn];
     }

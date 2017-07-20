@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C7A2421F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A2411F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.m */; };
 		04D9C7121F1C63480017CD03 /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */; };
 		04D9C7151F1C668D0017CD03 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7141F1C668D0017CD03 /* BSTabBarController.m */; };
 		04D9C7181F1C66A30017CD03 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C7171F1C66A30017CD03 /* BSNavigationController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C7A2401F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExtension.h"; sourceTree = "<group>"; };
+		04C7A2411F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExtension.m"; sourceTree = "<group>"; };
 		04D9C7101F1C63480017CD03 /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
 		04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
 		04D9C7131F1C668D0017CD03 /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBarController.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 			children = (
 				04D9C7101F1C63480017CD03 /* UIView+BSExtension.h */,
 				04D9C7111F1C63480017CD03 /* UIView+BSExtension.m */,
+				04C7A2401F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.h */,
+				04C7A2411F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				04D9CF421F18BB2D00379B28 /* AppDelegate.m in Sources */,
 				04D9C7241F1C991B0017CD03 /* BSEssenceViewController.m in Sources */,
 				04D9C71E1F1C98DB0017CD03 /* BSMeViewController.m in Sources */,
+				04C7A2421F1DBA7C00C5AC70 /* UIBarButtonItem+BSExtension.m in Sources */,
 				04D9CF0F1F18B7C900379B28 /* main.m in Sources */,
 				04D9C7121F1C63480017CD03 /* UIView+BSExtension.m in Sources */,
 				04D9C7211F1C99000017CD03 /* BSNewViewController.m in Sources */,

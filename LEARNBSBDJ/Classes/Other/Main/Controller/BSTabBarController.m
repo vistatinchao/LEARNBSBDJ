@@ -34,6 +34,8 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
+
+
 }
 
 - (void)viewDidLoad {
@@ -53,6 +55,7 @@
     
     BSTabBar *tabBar = [BSTabBar tabBar];
     [self setValue:tabBar forKey:@"tabBar"];//更换系统的tabbar
+    
     //self.tabBar.tintColor = [UIColor blackColor];//设置tabbar选中时的item颜色
 }
 
@@ -61,8 +64,10 @@
     controller.tabBarItem.title = title;
     controller.tabBarItem.image = [UIImage imageNamed:normalImage];
     controller.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:controller];
+    BSNavigationController *nvc = [[BSNavigationController alloc]initWithRootViewController:controller];
     [self addChildViewController:nvc];
 }
+
+
 
 @end
